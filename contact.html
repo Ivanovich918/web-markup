@@ -18,6 +18,7 @@
 <body>
 
     <header class="container">
+        <p>The website for food supplements</p>
         <nav class="topnav">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -31,9 +32,12 @@
     </header>
     <section class="container">
         <article>
+            <header>
+                <h1>Contact us</h1>
+            </header>
             <form method="post" action="https://coolinhollanddemo.azurewebsites.net/">
                 <fieldset>
-                    <legend>Enter your query here</legend>
+                    <legend>Use the form below to send us a message or a query.</legend>
                     <p>
                         <label for="name">Full name*</label>
                         <input type="text" name="name" id="name" required="true" />
@@ -45,12 +49,18 @@
                     <p><label for="name">Your query*</label><textarea required="true" name="message"></textarea>
                     </p>
 
-                    <p>
+                    <footer>
                         <input type="submit" value="Submit" class="button" />
-                    </p>
+                    </footer>
                 </fieldset>
             </form>
         </article>
+        <aside>
+            <figure>
+                <img src="img/creatine.png" title="creatine" alt="creatine" />
+                <figcaption>Creatine is probably the single best supplement for muscle gain. Many studies have confirmed that it can help increase muscle mass.</figcaption>
+            </figure>
+        </aside>
     </section>
     <footer class="container">
         <p>Copyright&copy; 2023 Ivan Stanev</p>

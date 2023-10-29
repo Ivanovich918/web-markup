@@ -1,0 +1,5 @@
+Student name: Ivan Stanev
+Student number: 712918
+Student class: HAITFT1B
+GitHub Repository: https://github.com/Ivanovich918/web-markup
+GitHub Pages URL: https://ivanovich918.github.io/web-markup/

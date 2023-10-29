@@ -194,7 +194,7 @@ fieldset .button {
     padding: 5px 40px 5px 40px;
 }
 
-/* styles for tablet */
+/* styles for tablet - will apply for display widths from 0 to 1024 pixels */
 @media (max-width: 1024px) {
     h1 {
         font-size: 2.5rem;
@@ -209,7 +209,7 @@ fieldset .button {
     }
 }
 
-/* styles for phone */
+/* styles for phone - will apply for display widths from 0 to 768 pixels */
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem;

@@ -26,11 +26,11 @@
                 <li><a href="ashwagandha-root.html">Ashwagandha root</a></li>
                 <li><a href="protein-powder.html">Protein powder</a></li>
                 <li><a href="essential-amino-acids.html">Essential amino acids</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a class="selected" href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section class="container">
+    <main class="container">
         <article>
             <header>
                 <h1>Contact us</h1>
@@ -40,13 +40,14 @@
                     <legend>Use the form below to send us a message or a query.</legend>
                     <p>
                         <label for="name">Full name*</label>
-                        <input type="text" name="name" id="name" required="true" />
+                        <input type="text" name="name" id="name" required="required" />
                     </p>
                     <p>
-                        <label for="name">Email address*</label>
-                        <input type="email" name="email" id="name" required="true" />
+                        <label for="email">Email address*</label>
+                        <input type="email" name="email" id="email" required="required" />
                     </p>
-                    <p><label for="name">Your query*</label><textarea required="true" name="message"></textarea>
+                    <p><label for="message">Your query*</label><textarea required="required" id="message"
+                            name="message"></textarea>
                     </p>
 
                     <footer>
@@ -58,10 +59,11 @@
         <aside>
             <figure>
                 <img src="img/creatine.png" title="creatine" alt="creatine" />
-                <figcaption>Creatine is probably the single best supplement for muscle gain. Many studies have confirmed that it can help increase muscle mass.</figcaption>
+                <figcaption>Creatine is probably the single best supplement for muscle gain. Many studies have confirmed
+                    that it can help increase muscle mass.</figcaption>
             </figure>
         </aside>
-    </section>
+    </main>
     <footer class="container">
         <p>Copyright&copy; 2023 Ivan Stanev</p>
     </footer>

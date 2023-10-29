@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* body child elements - centered horizontally */
     min-height: 100vh;
     margin: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -22,6 +23,13 @@ h1 {
     letter-spacing: 0.5rem;
     word-spacing: 0.5rem;
     text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+    margin: 40px 0 30px 0;
 }
 
 p,
@@ -69,12 +77,21 @@ body>header p {
     font-size: 1.3rem;
 }
 
-body>section {
+.topnav a.selected {
+    font-weight: bold;
+}
+
+body>main {
     display: flex;
     flex-grow: 1;
     gap: 30px;
 }
 
+body>footer {
+    margin-top: 30px;
+}
+
+/* for top level header, main, footer - take full body width but not wider than 1200px */
 .container {
     max-width: 1200px;
     width: 100%;
@@ -107,6 +124,8 @@ fieldset {
     position: fixed;
     left: 0;
     bottom: 0;
+    /* width should include padding */
+    box-sizing: border-box;
     padding: 30px 30px;
     background-color: #323232;
     color: white;
@@ -200,7 +219,7 @@ fieldset .button {
         font-size: 2.5rem;
     }
 
-    body>section {
+    body>main {
         flex-direction: column;
     }
 
@@ -218,6 +237,10 @@ fieldset .button {
         word-spacing: 0.3rem;
     }
 
+    h2 {
+        font-size: 1.4rem;
+    }
+
     .topnav>ul {
         font-size: 0.9rem;
         flex-flow: wrap;
@@ -225,5 +248,14 @@ fieldset .button {
 
     fieldset p {
         flex-wrap: wrap;
+    }
+
+    .alttable td,
+    .alttable th {
+        font-size: 0.8rem;
+    }
+
+    article figure {
+        float: none;
     }
 }
